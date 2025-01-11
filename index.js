@@ -1,3 +1,5 @@
 var x = 10;
-console.log(b);
+
+console.log('g');
+
 const c = 5;
