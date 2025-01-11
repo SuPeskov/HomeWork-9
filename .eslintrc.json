@@ -1,34 +1,23 @@
 {
-    "env": {
+  "env": {
+    "browser": true,
 
-      "browser": true,
+    "es2021": true
+  },
 
-      "es2021": true
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
 
-    },
+  "parserOptions": {
+    "ecmaVersion": 12,
 
-    "extends": [
-      "eslint:recommended",
+    "sourceType": "module"
+  },
 
-      "plugin:prettier/recommended"
-    ],
+  "rules": {
+    "indent": ["error", 2],
 
-    "parserOptions": {
+    "quotes": ["error", "single"],
 
-      "ecmaVersion": 12,
-
-      "sourceType": "module"
-
-    },
-
-    "rules": {
-
-      "indent": ["error", 2],
-
-      "quotes": ["error", "single"],
-
-      "semi": ["error", "always"]
-
-    }
-
+    "semi": ["error", "always"]
   }
+}
